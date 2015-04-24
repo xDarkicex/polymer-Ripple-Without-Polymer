@@ -150,7 +150,9 @@ BODY
 }
 
 .product-bullets ul{
+	list-style-type: circle;
 	padding-top: 4%;
+	padding-left:17px;
 	width:70%;
 	line-height: 2em;
 }
