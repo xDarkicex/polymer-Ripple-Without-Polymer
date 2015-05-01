@@ -3,12 +3,17 @@
 Top HEADER
 =============
 */
-
+.hide{
+	display: none;
+}
 
 .wrapper{
 	width:1024px;
+	position: relative;
 	margin:0 auto;
-	box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 5px 0 15px -6px rgba(0, 0, 0, 0.2), -5px 0 15px -6px rgba(0, 0, 0, 0.2);
+	z-index: 3;
+	background-color: #fff;
+	box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 5px 0 15px -6px rgba(0, 0, 0, 0.3), -5px 0 15px -6px rgba(0, 0, 0, 0.3);
 }
 
 .header {
@@ -45,8 +50,8 @@ Top HEADER
 	height:5em;
 }
 .nav{
-	margin-left:27%;
-	margin-top: -25px;
+	margin-left:13%;
+	margin-top: -65px;
 	width: 100%;
 	text-align: center;
 
@@ -63,7 +68,7 @@ Top HEADER
 		/*margin-right: .4em;
 		margin-left: .4em;*/
 		border-radius: 4px;
-		width:6em;
+		width:8.5rem;
 		height:2.5em;
 		padding-right: .8em;
 		padding-left: .8em;
@@ -196,6 +201,93 @@ BODY
 	line-height: 20px;
 	color:#fff;
 }
+
+/*
+===================
+Slide Menu
+===================
+*/
+/*.main-content{
+	z-index: 5;
+}*/
+
+/*.slide-handler{
+	width:230px;
+	height:500px;
+	position:fixed;
+	background: rgba(0,0,0,0.2);
+	top:200px;
+	left:200px;
+}
+.slide-handler:hover ~ .menu-wrapper{
+	width:225px;
+	left: 205px;
+}*/
+.menu-wrapper{
+	width: 65px;
+	height: 500px;
+	position: fixed;
+	top: 150px;
+	/*left: 205px;*/
+	left: 365px;
+	z-index: 1;
+	background-color: #FFD758;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px; 
+	
+	box-shadow: 1px 1px 12px rgba(0,0,0,0.1), -1px 1px 12px rgba(0,0,0,0.1);
+}
+
+.menu-wrapper.active{
+	width: 225px;
+	left:205px;
+	z-index: 1;
+	
+}
+
+.menu-arrow{
+	position: absolute;
+	width: 64px;
+	height: 500px;
+	cursor: pointer;
+	background-color: #FFD758;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px; 
+	border-right:1px solid #e1ab00;
+	box-shadow: none;
+	-webkit-appearance: none;
+	padding: 0;
+	
+}
+
+.arrow-img{
+	width: 45px;
+	margin-top: 225px;
+	margin-left: 10px;
+}
+
+.menu-wrapper ul li {
+
+
+}
+
+.menu-wrapper ul li a {
+	display: block;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	width: 200px;
+	height: 45px;
+	padding-left: 50px;
+	margin-left: 40px;
+	line-height: 45px;
+}
+
+.menu-wrapper ul li a:hover {
+	background-color: #e1ab00;
+}
+
+
 /*
 ====================
 Material Design
