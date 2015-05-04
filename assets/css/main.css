@@ -209,7 +209,7 @@ Slide Menu
 */
 
 .menu-wrapper{
-	width: 65px;
+	width: 265px;
 	height: 500px;
 	position: fixed;
 	top: 150px;
@@ -219,7 +219,7 @@ Slide Menu
 	background-color: #FFD758;
 	border-top-left-radius: 20px;
 	border-bottom-left-radius: 20px; 
-	
+	transition: left 0.3s ease-in-out;
 	box-shadow: 1px 1px 12px rgba(0,0,0,0.1), -1px 1px 12px rgba(0,0,0,0.1);
 }
 
@@ -227,7 +227,7 @@ Slide Menu
 	width: 225px;
 	left:205px;
 	z-index: 1;
-	transition: left 0.1s linear;
+	
 	
 }
 
@@ -250,6 +250,11 @@ Slide Menu
 	width: 45px;
 	margin-top: 225px;
 	margin-left: 10px;
+	transition: transform 0.3s linear;
+}
+
+.arrow-img.active{
+	transform: rotate(180deg);
 }
 
 .menu-wrapper ul li {
