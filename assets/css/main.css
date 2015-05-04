@@ -224,7 +224,7 @@ Slide Menu
 }
 
 .menu-wrapper.active{
-	width: 225px;
+	width: 265px;
 	left:205px;
 	z-index: 1;
 	
@@ -276,6 +276,136 @@ Slide Menu
 
 .menu-wrapper ul li a:hover {
 	background-color: #e1ab00;
+}
+
+.top-menu{
+	display:none;
+}
+
+/*
+====================
+Media Queries
+====================
+*/
+
+@media (max-width: 1850px){
+	.menu-wrapper{
+		left: 340px;
+	}
+	.menu-wrapper.active{
+		left: 180px;
+	}
+}
+
+@media (max-width: 1800px){
+	.menu-wrapper{
+		left: 315px;
+	}
+	.menu-wrapper.active{
+		left: 160px;
+	}
+}
+
+@media (max-width: 1750px){
+	.menu-wrapper{
+		left: 290px;
+	}
+	.menu-wrapper.active{
+		left: 130px;
+	}
+}
+
+@media (max-width: 1700px){
+	.menu-wrapper{
+		left: 265px;
+	}
+	.menu-wrapper.active{
+		left: 110px;
+	}
+}
+
+
+@media (max-width: 1650px){
+	.menu-wrapper{
+		left: 240px;
+	}
+	.menu-wrapper.active{
+		left: 78px;
+	}
+}
+
+@media (max-width: 1600px){
+	.menu-wrapper{
+		left: 215px;
+	}
+	.menu-wrapper.active{
+		left: 60px;
+	}
+}
+
+@media (max-width: 1550px){
+	.menu-wrapper{
+		left: 190px;
+	}
+	.menu-wrapper.active{
+		left: 35px;
+	}
+}
+
+@media (max-width: 1530px){
+.content{
+	margin-top: 45px;
+}
+
+.menu-wrapper{
+display:none;
+}
+
+.top-menu{
+	margin:auto;
+	z-index: 4;
+	display: inline-block;
+	width: 1024px;
+	height: 45px;
+	background-color: #FFD758;
+	position: absolute;
+	top: 8em;
+	left: 0;
+	right: 0;
+	text-align: center;
+
+}
+
+.top-menu ul li{
+	display: inline-block;
+}
+
+.top-menu ul li a{
+	display: block;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	line-height: 45px;
+	width: 122px;
+	
+	margin-right: 0px;
+	margin-left: 0px;
+	white-space: nowrap;
+
+}
+
+.top-menu ul li a:hover{
+	background-color: #e1ab00;
+}
+
+.top-menu ul li:first-child{
+	margin-left: 0px;
+}
+
+.top-menu ul li:last-child{
+	margin-right: 0;
+}
+
 }
 
 
