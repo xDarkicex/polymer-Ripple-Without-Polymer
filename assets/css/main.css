@@ -207,22 +207,7 @@ BODY
 Slide Menu
 ===================
 */
-/*.main-content{
-	z-index: 5;
-}*/
 
-/*.slide-handler{
-	width:230px;
-	height:500px;
-	position:fixed;
-	background: rgba(0,0,0,0.2);
-	top:200px;
-	left:200px;
-}
-.slide-handler:hover ~ .menu-wrapper{
-	width:225px;
-	left: 205px;
-}*/
 .menu-wrapper{
 	width: 65px;
 	height: 500px;
@@ -242,6 +227,7 @@ Slide Menu
 	width: 225px;
 	left:205px;
 	z-index: 1;
+	transition: left 0.1s linear;
 	
 }
 
