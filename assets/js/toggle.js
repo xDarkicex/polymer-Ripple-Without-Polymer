@@ -18,9 +18,9 @@
 
 })();
 
+
 (function() {
 
-  "use strict";
 
   var toggles = document.querySelectorAll(".arrow-img");
 
