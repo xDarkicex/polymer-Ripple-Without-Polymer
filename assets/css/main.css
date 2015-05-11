@@ -581,7 +581,7 @@ display:none;
 	.header p{
 		width: 40%;
 		margin-top: -85px;
-		margin-left: 57.7%;
+		margin-left: 59.7%;
 	}
 	.company-name-container{
 		width:350px;
@@ -616,6 +616,7 @@ display:none;
 	}
 	.social{
 		margin-left: 0px;
+		margin-right: 5px;
 	}
 }
 
