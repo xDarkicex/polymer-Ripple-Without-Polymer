@@ -573,17 +573,49 @@ display:none;
 	}
 	.logo{
 		margin-left: 2%;
+
 	}
 	.nav{
 		display: none;
 	}
 	.header p{
-		width: 60%;
-		margin-top: -35px;
-		margin-left: 42.7%;
+		width: 40%;
+		margin-top: -85px;
+		margin-left: 57.7%;
 	}
 	.company-name-container{
-		width:100%;
+		width:350px;
+		margin-right: 15px;
+		margin-left: 5%;
+		margin-bottom: 15px;
+		align-items: initial;
+		height: auto;
+	}
+	.cn-child1, .cn-child2, .cn-child3{
+
+	}
+
+	.flexBreak .divider span{
+		width: 90%;
+	}
+	.hc-item1{
+		font-size: 34px;
+	}
+	.hc-item2{
+		color: white;
+	}
+	.whatsNew{
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.contact{
+		padding-left: 35px;
+	}
+	.social-footer p{
+		padding-left: 5px;
+	}
+	.social{
+		margin-left: 0px;
 	}
 }
 
