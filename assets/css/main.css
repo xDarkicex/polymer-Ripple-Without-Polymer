@@ -3,9 +3,11 @@
 Top HEADER
 =============
 */
-.hide{
-	display: none;
+*{
+	transition: all 0.7s ease;
 }
+
+
 
 .wrapper{
 	width:1024px;
@@ -586,9 +588,7 @@ display:none;
 		left: -84px;
 		white-space: nowrap;
 	}
-	.hide{
-		display: none;
-	}
+
 	.company-name-container{
 		width:350px;
 		margin-right: 15px;
@@ -632,6 +632,9 @@ display:none;
 @media (max-width: 650px){
 	.item1, .item2, .item3{
 		width:170px;
+	}
+		.hide{
+		display: none;
 	}
 }
 
