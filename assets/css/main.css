@@ -624,7 +624,7 @@ display:none;
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) { 
   	.header p{
   		width: 60%;
-  		margin-left: 20%;
+  		margin-left: 40%;
   	}
 
 }
