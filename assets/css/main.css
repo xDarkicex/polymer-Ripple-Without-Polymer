@@ -571,6 +571,9 @@ display:none;
 	.top-menu{
 		display: none;
 	}
+	.nav{
+		display: none;
+	}
 }
 
 /*
