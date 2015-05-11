@@ -572,16 +572,22 @@ display:none;
 		display: none;
 	}
 	.logo{
-		margin-left: 2%;
+		margin-left: 20%;
+		margin-top: -8px;
 
 	}
 	.nav{
 		display: none;
 	}
 	.header p{
-		width: 40%;
-		margin-top: -80px;
-		margin-left: 227px;
+		width: 100%;
+		position: relative;
+		top: 25px;
+		left: -84px;
+		white-space: nowrap;
+	}
+	.hide{
+		display: none;
 	}
 	.company-name-container{
 		width:350px;
@@ -628,13 +634,7 @@ display:none;
 		width:170px;
 	}
 }
-/* ----- Iphone ----- landscape----- */
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) { 
-  	.header p{
 
-  	}
-
-}
 
 /*
 ====================
