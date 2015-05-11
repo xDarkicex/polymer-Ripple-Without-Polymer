@@ -563,6 +563,8 @@ display:none;
 
 @media (max-width: 650px){
 	.wrapper{
+		overflow: hidden;
+		width: 650px;
 		margin: 0;
 		padding: 0;
 	}
